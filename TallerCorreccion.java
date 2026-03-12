@@ -19,7 +19,7 @@ public class TallerCorreccion {
             // Simulación de lectura de datos
             byte[] buffer = new byte[1024];
             while (fis.read(buffer) != -1) {
-                // Proceso de datos...
+                System.out.println("Arreglo");
             }
         } catch (FileNotFoundException e) {
             e.printStackTrace();
