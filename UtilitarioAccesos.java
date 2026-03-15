@@ -34,6 +34,10 @@ public class UtilitarioAccesos {
             accessStatus = "MANAGER_BASIC_ACCESS";
         }
 
+        if(accessStatus == ""0){
+
+        }
+
         return accessStatus;
             
     }
